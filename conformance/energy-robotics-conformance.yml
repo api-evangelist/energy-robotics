@@ -1,0 +1,17 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.korial.com/llms.txt
+note: >-
+  Compliance posture published by Korial (formerly Energy Robotics GmbH) on its
+  site and llms.txt security & compliance section. No public OpenAPI is published,
+  so protocol-level conformance (oauth2/oidc/rfc9457/etc.) cannot be derived.
+standards:
+  - id: iso-27001
+    conforms: true
+    evidence: "Korial states 'ISO 27001 certified' in its Security & compliance capabilities."
+  - id: gdpr
+    conforms: true
+    evidence: "Korial states 'GDPR-compliant (privacy by design and default)'; EU (Darmstadt, Germany) data-residency and sovereign hosting options."
+  - id: role-based-access-control
+    conforms: true
+    evidence: "Role-based access control and network segmentation listed under platform security."

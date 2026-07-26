@@ -1,22 +1,106 @@
 aid: energy-robotics
 name: Energy Robotics
-description: Energy Robotics is a company surfaced as a portfolio company of earlybird and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Energy Robotics GmbH, now trading as Korial, is a Darmstadt, Germany enterprise
+  AI platform (spun out of TU Darmstadt robotics research) for fully autonomous
+  industrial operations. It is hardware-agnostic, unifying mixed-vendor robots,
+  legged and tracked ground robots, drones, fixed cameras, and field sensors into
+  a single governed AI operating layer that turns live telemetry into verified
+  insight and orchestrated action across oil & gas, chemicals, power & utilities,
+  and critical infrastructure. The platform spans four modules: Kore (the AI core
+  with LLM, agentic workflows, embedded AI skills, and fleet/device supervision),
+  Connect (an integration backbone exposing bidirectional governed APIs into ERP,
+  EAM, SCADA, historians and ICS/OT systems), Recreate (digital twins and mission
+  simulation), and Sustain (support, onboarding, and managed mission execution).
+  Korial reports 1,000,000+ autonomous inspections, 100+ global deployments, and
+  named customers including Shell, bp, Repsol, Petrobras, Pluspetrol, Chevron,
+  E.ON, Evonik, BASF, and Merck. Rebranded from Energy Robotics GmbH on 4 May 2026.
 url: https://raw.githubusercontent.com/api-evangelist/energy-robotics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69cba68755c8be38e980bc5c/69e8dd818b17cd3e0b11076e_korial-og-holding.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-rebrand:
+  former-name: Energy Robotics GmbH
+  current-name: Korial
+  date: '2026-05-04'
+  website: https://www.korial.com
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Robotics
+- Industrial Automation
+- Autonomous Inspection
+- Drones
+- Artificial Intelligence
+- Digital Twin
+- IoT
+- Energy
+- Oil and Gas
+- Utilities
+- OT Integration
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/energy-robotics-domain-security.yml
+- type: Website
+  url: https://www.korial.com
+- type: EnterpriseAIPlatform
+  name: Platform Overview
+  url: https://www.korial.com/enterprise-ai-platform
+- type: Blog
+  name: Updates
+  url: https://www.korial.com/resources/updates
+- type: Support
+  name: Contact Us
+  url: https://www.korial.com/company/contact-us
+- type: SignUp
+  name: Book a Demo
+  url: https://www.korial.com/company/book-a-demo
+- type: TermsOfService
+  url: https://www.korial.com/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.korial.com/legal/privacy-policy
+- type: Compliance
+  name: ISO 27001 / GDPR
+  url: conformance/energy-robotics-conformance.yml
+- type: Conformance
+  url: conformance/energy-robotics-conformance.yml
+- type: LLMsTxt
+  url: llms/energy-robotics-llms.txt
+- type: CustomerStories
+  url: https://www.korial.com/customer-stories
+- type: Careers
+  url: https://careers.korial.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/energy-robotics/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCQdn36szu2fUZVmYX_0n2_A
+- type: Twitter
+  url: https://x.com/EnergyRobotics
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,151 @@
+---
+generated: '2026-07-19'
+method: searched
+source: https://www.korial.com/llms.txt
+---
+# Korial
+
+> Korial (formerly Energy Robotics) is a hardware-agnostic enterprise AI platform headquartered in Darmstadt, Germany. It enables fully autonomous industrial operations by unifying robots, drones, sensors, cameras, and field devices into a single governed AI operating layer. The platform continuously converts live telemetry into verified insight and orchestrated action, improving safety, reliability, and efficiency across industrial sites. Korial was rebranded from Energy Robotics GmbH on 4 May 2026; the legal entity remains Energy Robotics GmbH.
+
+## Company Overview
+
+- **Full legal name:** Energy Robotics GmbH (trading as Korial)
+- **Founded:** Darmstadt, Germany — spun out of TU Darmstadt robotics research
+- **CEO & Co-founder:** Marc Dassler (serial entrepreneur, two decades in global technology businesses)
+- **CPO & Co-founder:** Dr. Dorian Scholz (PhD in robotics, TU Darmstadt)
+- **CTO & Co-founder:** Dr. Stefan Kohlbrecher (creator of Hector SLAM; DARPA Robotics Challenge veteran)
+- **COO & Co-founder:** Dr. Alberto Romay (PhD in robotics, TU Darmstadt; robot DevOps and autonomous behaviours)
+- **CRO:** Andy Sadler (25+ years in high-growth SaaS go-to-market)
+- **VP People & Culture:** Sarah Davoine
+- **Senior Advisor & Co-founder:** Prof. Oskar von Stryk (TU Darmstadt professor; 25+ years, 250+ publications in autonomous robotics)
+- **Team size:** 100+ engineers, product specialists, and researchers across 42 nationalities, including 11 PhDs
+- **Awards:** IEEE RAS Industrial Activities Board Award (2023)
+- **Funding:** $20 million Series A (2026) — backed by Blue Bear Capital, Climate Investment, and European Innovation Council Fund
+- **Contact / press:** press@korial.com
+- **Website:** https://www.korial.com
+
+## Mission & Vision
+
+Korial's mission is to get people out of hazardous environments and away from dull, dirty, and dangerous tasks. It provides a single operating layer that lets industrial leaders govern, deploy, and scale autonomous operations with confidence across sites, fleets, and vendors. The company's vision is a future where critical industrial facilities orchestrate themselves — a unified platform directing heterogeneous fleets as a single intelligent entity, continuously collecting data, identifying issues, resolving anomalies, and optimising production 24/7 across the asset lifecycle.
+
+## Core Problem Being Solved
+
+The industrial robotics market faces a fragmentation bottleneck. Hardware has matured but enterprise adoption is limited by disconnected silos and proprietary OEM clouds, creating an unmanageable "robot zoo." Operations leaders must juggle multiple interfaces and data models. Korial resolves this by decoupling intelligence from hardware and providing the architectural standard required to orchestrate complex operations across any environment.
+
+## Platform Architecture
+
+The Korial platform consists of four interoperable modules delivered as a single enterprise system:
+
+### Kore (AI Core)
+The intelligence heart of the platform. Kore unifies fleet supervision, site context, telemetry, and inspection data into one intelligence layer. It combines an LLM, agentic AI workflows, embedded AI skills, device and site supervision, robot control, and a self-reinforcing data layer. Live telemetry becomes actionable insight, automated decisions, and continuously improving autonomous operations. Key capabilities: single view of fleets, sites, and controls; faster and safer mission and operations management; trusted AI insights and decisions at scale; data that makes autonomy smarter over time.
+
+### Connect (Enterprise Integration Layer)
+Optional integration backbone for APIs and enterprise data exchange. Streams inspection data, telemetry, metadata, and verified insights between Korial and external IT/OT systems. Enables bidirectional flows: northbound distribution of AI-verified insights into ERP, EAM, SCADA, historians, and ICS platforms; southbound programmatic fleet triggers allowing enterprise systems to create missions and control autonomous execution. Maintains minimum 90-day data retention with sovereign AI capabilities for local annotation and training. Keeps integrations reliable, auditable, and compliant.
+
+### Recreate (Digital Twin & Simulation Environment)
+Optional immersive modelling and simulation environment. Combines digital twins, spatial site views (3D point cloud / reality-capture), and virtual mission testing. Allows teams to understand infrastructure remotely, validate operating logic, test inspection routes and failure modes, and optimise mission and fleet decisions before live deployment. Continuously enriched by live field operations.
+
+### Sustain (Continuity & Success Layer)
+Industrial-grade support, structured onboarding, and long-term success architecture. Tiered support from business-hours assistance to 24/7 coverage. Includes dedicated customer success manager, user training, knowledge base, and ongoing performance reviews. At the highest tier, Korial staff can supervise or fully execute robot and drone missions on behalf of customers.
+
+## Key Technical Capabilities
+
+- **Hardware agnostic:** Orchestrates mixed-vendor fleets (ground robots, legged robots, tracked robots, drones, fixed cameras, sensors) through a single platform — no vendor lock-in
+- **Multi-modal AI inference:** Processes visual, thermal, acoustic, gas sensor, and LiDAR data from ICS, PLCs, and field devices
+- **AI skills:** Read analog gauges, interpret valve positions, analyse thermal images, detect gas leaks down to ppm levels, identify micro-leaks and thermal anomalies
+- **Agentic workflows:** Autonomous mission orchestration — operators teach new inspection behaviours via remote teleoperation once; AI converts expertise into repeatable autonomous missions
+- **Self-reinforcing data layer:** Enriches multi-modal telemetry with AI-generated metadata; lessons from one plant can automatically improve performance at others
+- **Real-time anomaly detection:** Reduces Mean Time To Detect (MTTD) by replacing manual rounds with continuous autonomous monitoring
+- **Ex-Zone robot support:** Natively certified for hazardous area (Ex-Zone) robots
+- **Deployment models:** SaaS, in-country hosted, and private cloud — supports data residency, sovereignty, and regulatory requirements
+- **Security & compliance:** ISO 27001 certified, GDPR-compliant (privacy by design and default), role-based access control, network segmentation, end-to-end integration governance
+
+## Industries & Use Cases
+
+**Target sectors:** Oil & gas, chemicals, power & utilities, energy transition / grid renewal, and other critical infrastructure
+
+**Use cases supported:**
+- Autonomous operator rounds
+- Asset condition monitoring
+- Asset performance management
+- Periodic inspections
+- Tank farm and refinery inspection
+- Substation inspection and monitoring
+- Chemical plant autonomous inspection
+- Mixed fleet coordination (ground + aerial)
+- Hazardous and Ex-zone inspection
+- Hard-to-reach / elevated structure inspection
+
+## Proven Results (Documented Metrics)
+
+- 1,000,000+ autonomous inspections completed
+- 35,000+ human hours saved
+- 100+ global deployments across five continents
+- 42% cost saving via TCO reduction (consolidating fragmented pilots into one AI platform)
+- 34% reduction in unplanned downtime (continuous anomaly detection, earlier intervention)
+- 30% reduction in MTTR (Mean Time To Repair)
+- 24/7 autonomous diagnostic oversight without sending people into hazardous zones
+
+## Customer Stories
+
+### Shell Energy and Chemicals Park Rheinland (Oil & Gas)
+Shell's largest facility in Germany required a unified intelligence backbone to coordinate a mixed fleet across Ex and non-Ex zones. Korial orchestrates an ExR-2 tracked robot (Ex zones), Boston Dynamics Spot (non-hazardous areas), and a DJI drone (tank roofs and hard-to-reach structures) through a single interface. Replaced manual rounds with automated missions managed from the control room. Outcome: eliminated data silos, accelerated decision-making, 360° inspection from ground and air.
+> "We are proud to have put a mixed fleet of autonomous inspection robots and a drone into operation. The different models give us the flexibility we need to inspect a large number of inspection points automatically." — Thomas Klein, Digital Innovation Lead, Shell
+
+### Evonik (Specialty Chemicals)
+Global specialty chemicals leader needed scalable inspection for a test facility with analog gauges, elevated pipework, and narrow corridors. Deployed Boston Dynamics Spot powered by Korial. Engineers remotely teach inspection routes and promote them to automated scheduled missions. Outcome: improved inspection quality and consistency; freed engineers for higher-value process optimisation. Plans to extend to live production environments.
+> "Korial's autonomous inspection solution has shown us that mobile robots can perform inspection tasks consistently and deliver reliable data — exactly what we need in a chemical environment." — Dr. Uwe Piechottka, Digital Process Technologies, Evonik
+
+### E.ON (Energy & Utilities — E.DIS, Bayernwerk, Avacon)
+Three E.ON subsidiaries independently concluded they needed autonomous mobile robots for substation inspection, where aging infrastructure (1950s–1970s) and technician scarcity made manual rounds unsustainable. All three converged on Korial as a shared platform. Robots navigate substations autonomously, read gauges and indicators, and log everything. Outcome: hardware flexibility preserved, repeatable blueprint for scaling as grid renewal accelerates.
+> "To be able to use digital solutions and the associated advantages for grid operation, it is important we implement and test them. Only in this way can we contribute to the energy transition in a future-oriented manner." — Sven Mögling, Innovation Manager E.DIS, E.ON
+
+**Other named enterprise customers:** bp, Repsol, Petrobras, Pluspetrol, Chevron, BASF, Merck
+
+## Positioning
+
+### For Executives
+Korial lowers OpEx, strengthens reliability, and protects people without scaling headcount. It pushes verified insights directly into ERP, EAM, IT/OT, and reporting systems rather than requiring log-in to a new dashboard. Provides clear governance and auditability to support board-level funding decisions.
+
+### For Solution Architects
+Decouples intelligence from OEM device stacks. Centralises industrial intelligence in a shared AI core. Provides bidirectional IT/OT connectivity via governed APIs. Supports multiple deployment models for data residency compliance. Eliminates bespoke connector maintenance. Delivers a single explainable behaviour model that can be versioned, governed, and evolved centrally across all facilities.
+
+## Competitive Differentiation
+
+- Unlike pure-play analytics platforms: Korial generates first-party operational data through autonomous robots and drones
+- Unlike robotics OEMs: Korial is hardware-agnostic and orchestrates mixed fleets from multiple manufacturers
+- Unlike single-device solutions: one unified platform spans fleets, sites, and use cases so every deployment compounds value rather than creating silos
+- Avoids vendor lock-in: intelligence is decoupled from hardware; customers protect their autonomy roadmaps from technology churn
+
+## Company Values
+
+- **Core:** Industrial inspection and operations are central — not a side bet; not adjacent markets
+- **Real:** Plain language; no jargon or hype; transparent about what the technology does and does not do
+- **AI:** AI is the core of what makes Korial impactful at scale — not a badge or a bolt-on
+- **Kind:** Designed for the humans behind the operations; empathy for operators, engineers, and leaders
+
+## Site Map / Key URLs
+
+- Homepage: https://www.korial.com
+- Platform overview: https://www.korial.com/enterprise-ai-platform
+- For Executives: https://www.korial.com/why-korial/executives
+- For Solution Architects: https://www.korial.com/why-korial/solution-architects
+- Customer Stories (index): https://www.korial.com/customer-stories
+- Shell Rheinland case study: https://www.korial.com/customer-stories/shell-rheinland
+- Evonik case study: https://www.korial.com/customer-stories/evonik
+- E.ON case study: https://www.korial.com/customer-stories/e-on
+- About / Who We Are: https://www.korial.com/company/about-us
+- Leadership Team: https://www.korial.com/company/our-team
+- Contact Sales: https://www.korial.com/company/contact-us
+- Book a Demo: https://www.korial.com/company/book-a-demo
+- Careers: https://careers.korial.com
+- Press Release (rebrand): https://www.korial.com/legal/press-release
+- Privacy Policy: https://www.korial.com/legal/privacy-policy
+- Terms & Conditions: https://www.korial.com/legal/terms-and-conditions
+
+## Social & Media
+
+- LinkedIn: https://www.linkedin.com/company/energy-robotics/
+- YouTube: https://www.youtube.com/channel/UCQdn36szu2fUZVmYX_0n2_A
+- X (Twitter): https://x.com/EnergyRobotics
+- Press enquiries: press@korial.com
