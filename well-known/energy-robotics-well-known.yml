@@ -2,11 +2,12 @@ generated: '2026-07-19'
 method: searched
 source: https://www.korial.com
 host: https://www.korial.com
-note: >-
-  Probed the Korial (formerly Energy Robotics GmbH) primary host for the standard
-  discovery surface. No .well-known documents are published; all probes returned 404.
-  Absence is valid, expected data for a marketing-site host with no public API.
-documents:
+note: Probed the Korial (formerly Energy Robotics GmbH) primary host for the standard discovery surface.
+  No .well-known documents are published; all probes returned 404. Absence is valid, expected data for
+  a marketing-site host with no public API.
+hosts:
+- host: https://www.korial.com
+  documents:
   - path: /.well-known/security.txt
     status: 404
   - path: /.well-known/openid-configuration
@@ -17,3 +18,8 @@ documents:
     status: 404
   - path: /.well-known/ai-plugin.json
     status: 404
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
